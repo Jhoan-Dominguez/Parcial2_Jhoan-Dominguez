@@ -6,7 +6,7 @@
   require_once "logica/topic.php";
 
   $editionselected = 0;
-  if($_GET['edition']){
+  if(isset($_GET['edition'])){
     $editionselected = $_GET['edition'];
   }
 
